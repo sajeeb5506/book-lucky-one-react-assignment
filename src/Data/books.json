@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "picture": "https://img.freepik.com/free-psd/flat-design-business-template_23-2149326369.jpg?w=740",
+    "name": "Target Audience 22",
+   
+    "price": "100"
+  },
+  {
+    "id": "1",
+    "picture": "https://img.freepik.com/free-psd/festive-new-year-print-template_23-2149193119.jpg?w=740",
+    "name": "New Year 2022",
+    "price": "120"
+  },
+  {
+    "id": "3",
+    "picture": "https://img.freepik.com/free-psd/pumpkin-drink-poster-template_23-2148793092.jpg?w=740",
+    "name": "Pumpkin Juice",
+    "price": "135"
+  },
+  {
+    "id": "4",
+    "picture": "https://img.freepik.com/free-psd/vertical-poster-template-sales_23-2149313288.jpg?w=740",
+    "name": "Low Prices",
+    "price": "111"
+  },
+  {
+    "id": "5",
+    "picture": "https://img.freepik.com/free-psd/business-growth-poster-template_23-2149267711.jpg?w=740",
+    "name": "Grow your Business",
+    "price": "200"
+  },
+  {
+    "id": "6",
+    "picture": "https://img.freepik.com/free-psd/travel-world-poster-template_23-2149181422.jpg?w=740",
+    "name": "Travel World",
+    "price": "215"
+  },
+  {
+    "id": "7",
+    "picture": "https://img.freepik.com/free-psd/hiking-concept-poster-template_23-2148467094.jpg?w=740",
+    "name": "It's Time For Hiking",
+    "price": "320"
+  },
+  {
+    "id": "8",
+    "picture": "https://img.freepik.com/free-psd/flat-design-explore-japan-template_23-2149289644.jpg?w=740",
+    "name": "Blossom",
+    "price": "265"
+  },
+  {
+    "id": "9",
+    "picture": "https://img.freepik.com/free-psd/digital-marketing-poster-template_23-2148924864.jpg?w=740",
+    "name": "Digital Marketing",
+    "price": "259"
+  }
+]
