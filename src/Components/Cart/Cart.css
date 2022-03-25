@@ -1,0 +1,37 @@
+.cart {
+    height: 550px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.cart img {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 22px;
+
+}
+
+.cart h1,
+h2 {
+    padding-left: 10px;
+    color: rgb(43, 60, 116);
+}
+
+.btn-card {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: brown;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-text {
+    color: rgb(255, 249, 249);
+    font-size: 16px;
+
+}
