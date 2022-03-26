@@ -1,4 +1,4 @@
 # Book Shop React 
 
-Live Site :(https://bookshop-reactapp.netlify.app/).
+ [Book Shop React Live](https://bookshop-reactapp.netlify.app/)
 
