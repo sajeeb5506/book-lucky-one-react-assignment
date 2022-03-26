@@ -1,9 +1,11 @@
 import React from 'react';
 import './Cart.css';
 
-const Cart = ({book}) => {
+import {FaShoppingCart} from 'react-icons/fa';
+const Cart = ({book,handelAddToCart}) => {
     
-   const {id,name,picture,price}=book;
+   const {name,picture,price}=book;
+
     return (
     
       <div className='cart-container'>
@@ -13,10 +15,11 @@ const Cart = ({book}) => {
             <h2>Price:${price}</h2>
         
             
-            <button  className='btn-card'>
+            <button onClick={()=>handelAddToCart(book)} className='btn-card'>
 
              <p className='btn-text'>Add to card</p>
-   
+            <FaShoppingCart></FaShoppingCart>
+
           </button>
 
       

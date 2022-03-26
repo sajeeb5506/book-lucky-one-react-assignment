@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div className="">
+      
       <Header></Header>
       <Shop></Shop>
     </div>

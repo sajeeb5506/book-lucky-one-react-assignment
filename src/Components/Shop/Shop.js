@@ -6,6 +6,9 @@ import Ditels from '../Ditels/Ditels';
 
 const Shop = () => {
     const [books,setBooks]=useState([]);
+    const [cart,srtCart]=useState([]);
+
+
 
     useEffect(()=>{
       fetch('books.json')
@@ -13,6 +16,13 @@ const Shop = () => {
       .then(data=>setBooks(data));
   
     },[]);
+
+
+    const handelAddToCart =(book)=>{
+     const newBook =[...cart,book];
+     srtCart(newBook);
+      
+    }
   
     return (
         <div className='container'>
@@ -21,13 +31,17 @@ const Shop = () => {
      
           <div className="card-container">
           {
-                 books.map(book => <Cart key={book.id} book={book} ></Cart>)
+                 books.map(book => <Cart key={book.id} book={book} handelAddToCart={handelAddToCart}></Cart>)
           
             }
           </div>
             <div className="detils-container">
-                <Ditels></Ditels>
+            <h1>Books Order Summary</h1>
+                {
+                  cart.map(cart=> < Ditels key={cart.id}  cart={cart}/>)
+                }
             </div>
+            
        
         </div>
 
