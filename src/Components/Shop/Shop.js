@@ -6,9 +6,8 @@ import Ditels from '../Ditels/Ditels';
 
 const Shop = () => {
     const [books,setBooks]=useState([]);
-    const [cart,srtCart]=useState([]);
-
-
+    const [cart,setCart]=useState([]);
+    
 
     useEffect(()=>{
       fetch('books.json')
@@ -19,14 +18,22 @@ const Shop = () => {
 
     const handelAddToCart =(book)=>{
      const newCart =[...cart,book];
-     srtCart(newCart);
+     setCart(newCart);
       
     };
 
     const reset =()=>{
-      srtCart([]);
-    }
-  
+      setCart([]);
+    }; 
+const random=(cart)=>{
+const number =Math.floor(Math.random() * cart.length);
+
+const choose = cart[number]
+   const chooseOne = cart.filter(item => item === choose)
+   setCart(chooseOne);
+  console.log(chooseOne)
+}
+ 
     return (
         <div className='container'>
     
@@ -42,9 +49,9 @@ const Shop = () => {
              <div className="sticky">
              <h1>Books Order Summary</h1>
                 {
-                  cart.map(cart=> < Ditels key={cart.id}  cart={cart}/>)
+                  cart.map(cart=> < Ditels key={cart.id}   cart={cart}/>)
                 }
-                 <button  >Chocse One For Me</button>
+                 <button onClick={()=>random(cart)} >Chocse One For Me</button>
                  <button onClick={()=>reset()} >Chocse Again</button>
              </div>
             </div>

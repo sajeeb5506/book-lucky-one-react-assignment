@@ -1,7 +1,6 @@
-/* .container {
-  background-color: rgb(155, 185, 185);
-} */
-
+.container {
+  width: 100%;
+}
 
 .App {
   text-align: center;

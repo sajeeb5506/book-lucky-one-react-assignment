@@ -9,10 +9,16 @@ function App() {
 
   return (
     <div className="">
-
-      <Header></Header>
-      <Shop></Shop>
+     <div className="container">
+     <Header></Header>
+     </div>
+  <div className="">
+  <Shop></Shop>
+  </div>
+      <div className="">
       <Question></Question>
+      </div>
+     
     </div>
   );
 }

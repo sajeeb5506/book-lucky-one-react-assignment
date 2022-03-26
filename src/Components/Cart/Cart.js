@@ -5,6 +5,7 @@ import {FaShoppingCart} from 'react-icons/fa';
 const Cart = ({book,handelAddToCart}) => {
     
    const {name,picture,price}=book;
+   
 
     return (
     
