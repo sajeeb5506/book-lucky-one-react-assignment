@@ -1,8 +1,21 @@
 .header {
-    width: 110%;
+    width: 100%;
     text-align: center;
     font-size: 25px;
-    color: tomato;
-    background: rebeccapurple;
+    color: rgb(167, 39, 17);
     padding: 15px;
+    background-color: rgb(155, 185, 185);
+
 }
+
+@media only screen and (max-width: 600px) {
+
+    .header {
+
+        padding-right: 130px;
+
+    }
+
+}
+
+;
