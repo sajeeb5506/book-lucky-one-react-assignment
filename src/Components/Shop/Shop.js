@@ -17,11 +17,14 @@ const Shop = () => {
   
     },[]);
 
-
     const handelAddToCart =(book)=>{
-     const newBook =[...cart,book];
-     srtCart(newBook);
+     const newCart =[...cart,book];
+     srtCart(newCart);
       
+    };
+
+    const reset =()=>{
+      srtCart([]);
     }
   
     return (
@@ -36,10 +39,12 @@ const Shop = () => {
             }
           </div>
             <div className="detils-container">
-            <h1>Books Order Summary</h1>
+              <h1>Books Order Summary</h1>
                 {
                   cart.map(cart=> < Ditels key={cart.id}  cart={cart}/>)
                 }
+                 <button  >Chocse One For Me</button>
+                 <button onClick={()=>reset()} >Chocse Again</button>
             </div>
             
        
