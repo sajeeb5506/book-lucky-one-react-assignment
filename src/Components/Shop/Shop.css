@@ -15,11 +15,15 @@
 
 
 .detils-container {
-    position: sticky;
-    top: 0;
+
     background-color: orange;
     padding: 20px;
 
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
 
 .detils-container button {

@@ -39,12 +39,14 @@ const Shop = () => {
             }
           </div>
             <div className="detils-container">
-              <h1>Books Order Summary</h1>
+             <div className="sticky">
+             <h1>Books Order Summary</h1>
                 {
                   cart.map(cart=> < Ditels key={cart.id}  cart={cart}/>)
                 }
                  <button  >Chocse One For Me</button>
                  <button onClick={()=>reset()} >Chocse Again</button>
+             </div>
             </div>
             
        
