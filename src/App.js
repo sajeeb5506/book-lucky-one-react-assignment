@@ -1,5 +1,3 @@
-
-
 import './App.css';
 import Header from './Components/Heaser/Header';
 import Question from './Components/Questions/Question';
